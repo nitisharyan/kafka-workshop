@@ -1,0 +1,31 @@
+package com.sela.kafka;
+
+/**
+ * Created by eyalbenivri on 21/11/2016.
+ */
+public class CpuMetricMessage {
+
+    public CpuMetricMessage(UsageSampler sampler, String macAddress) {
+        this.cpuUsage = sampler.getCpuUsage();
+        this.freeMemory = sampler.getFreeMemory();
+        this.nanoTime = System.nanoTime();
+        this.macAddress = macAddress;
+    }
+
+    public double getCpuUsage() {
+        return cpuUsage;
+    }
+
+    public long getFreeMemory() {
+        return freeMemory;
+    }
+
+    public long getNanoTime() {
+        return nanoTime;
+    }
+
+    private double cpuUsage;
+    private long freeMemory;
+    private long nanoTime;
+    private String macAddress;
+}
