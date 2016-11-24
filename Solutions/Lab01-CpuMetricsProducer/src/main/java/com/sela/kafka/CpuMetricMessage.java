@@ -24,6 +24,10 @@ public class CpuMetricMessage {
         return nanoTime;
     }
 
+    public String getMacAddress() {
+        return macAddress;
+    }
+
     private double cpuUsage;
     private long freeMemory;
     private long nanoTime;
