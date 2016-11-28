@@ -1,0 +1,181 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/build/classes/main
+compile options:
+2 items
+0 -> -deprecation
+1 -> -unchecked
+javac options:
+8 items
+0 -> -source
+1 -> 1.8
+2 -> -target
+3 -> 1.8
+4 -> -d
+5 -> /Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/build/classes/main
+6 -> -g
+7 -> -XDuseUnsharedTable=true
+compiler version:
+1 items
+0 -> 2.10.5
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+4 items
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> /Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/build/classes/main/Producer$.class
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> /Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/build/classes/main/Producer$delayedInit$body.class
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> /Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/build/classes/main/Producer.class
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> /Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/build/classes/main/SuperHero.class
+binary dependencies:
+5 items
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/rt.jar
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> /Users/roadan/.gradle/caches/modules-2/files-2.1/io.confluent/kafka-schema-registry-client/3.0.1/958abb2ae3de62348e332a35ca3e8e0d8e31bb9/kafka-schema-registry-client-3.0.1.jar
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> /Users/roadan/.gradle/caches/modules-2/files-2.1/org.apache.avro/avro/1.7.7/3548c0bc136e71006f3fc34e22d34a29e5069e50/avro-1.7.7.jar
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> /Users/roadan/.gradle/caches/modules-2/files-2.1/org.apache.kafka/kafka-clients/0.10.0.1-cp1/18068c68b560a4646bba1656b0e24e9c6de0139c/kafka-clients-0.10.0.1-cp1.jar
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> /Users/roadan/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.10.5/57ac67a6cf6fd591e235c62f8893438e8d10431d/scala-library-2.10.5.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+4 items
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> Producer
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> Producer$
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> Producer$delayedInit$body
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> SuperHero
+used names:
+66 items
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> <init>
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> Any
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> AnyRef
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> App
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> Array
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> Byte
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> ByteArrayOutputStream
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> CachedSchemaRegistryClient
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> EncoderFactory
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> KafkaProducer
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> Nothing
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> Predef
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> Producer
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> ProducerRecord
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> Properties
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> ReflectData
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> ReflectDatumWriter
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> Schema
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> String
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> SuperHero
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> V
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> _root_
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> antMan
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> apache
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> avro
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> binEncoder
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> binaryEncoder
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> client
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> clients
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> confluent
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> flush
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> get
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> getClass
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> getSchema
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> id1
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> id2
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> input
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> io
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> java
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> kafka
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> name
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> nameParam
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> num
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> org
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> producer
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> props
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> put
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> record1
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> record2
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> reflect
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> register
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> result
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> scala
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> schema
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> schemaRegistry
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> schemaregistry
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> send
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> superMan
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> superPowers
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> superPowersParam
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> toByteArray
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> toBytes
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> topic
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> util
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> write
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> writer
+product stamps:
+4 items
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/build/classes/main/Producer$.class -> lastModified(1480301879000)
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/build/classes/main/Producer$delayedInit$body.class -> lastModified(1480301879000)
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/build/classes/main/Producer.class -> lastModified(1480301879000)
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/build/classes/main/SuperHero.class -> lastModified(1480301879000)
+source stamps:
+1 items
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> hash(53e82c82959a43bef0ed78e5468f65a2059b4e99)
+binary stamps:
+5 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/rt.jar -> lastModified(1444172124000)
+/Users/roadan/.gradle/caches/modules-2/files-2.1/io.confluent/kafka-schema-registry-client/3.0.1/958abb2ae3de62348e332a35ca3e8e0d8e31bb9/kafka-schema-registry-client-3.0.1.jar -> lastModified(1480211643000)
+/Users/roadan/.gradle/caches/modules-2/files-2.1/org.apache.avro/avro/1.7.7/3548c0bc136e71006f3fc34e22d34a29e5069e50/avro-1.7.7.jar -> lastModified(1480211643000)
+/Users/roadan/.gradle/caches/modules-2/files-2.1/org.apache.kafka/kafka-clients/0.10.0.1-cp1/18068c68b560a4646bba1656b0e24e9c6de0139c/kafka-clients-0.10.0.1-cp1.jar -> lastModified(1480214614000)
+/Users/roadan/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.10.5/57ac67a6cf6fd591e235c62f8893438e8d10431d/scala-library-2.10.5.jar -> lastModified(1478649912000)
+class names:
+5 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/rt.jar -> java.lang.Object
+/Users/roadan/.gradle/caches/modules-2/files-2.1/io.confluent/kafka-schema-registry-client/3.0.1/958abb2ae3de62348e332a35ca3e8e0d8e31bb9/kafka-schema-registry-client-3.0.1.jar -> io.confluent.kafka.schemaregistry.client.CachedSchemaRegistryClient
+/Users/roadan/.gradle/caches/modules-2/files-2.1/org.apache.avro/avro/1.7.7/3548c0bc136e71006f3fc34e22d34a29e5069e50/avro-1.7.7.jar -> org.apache.avro.Schema
+/Users/roadan/.gradle/caches/modules-2/files-2.1/org.apache.kafka/kafka-clients/0.10.0.1-cp1/18068c68b560a4646bba1656b0e24e9c6de0139c/kafka-clients-0.10.0.1-cp1.jar -> org.apache.kafka.clients.producer.ProducerRecord
+/Users/roadan/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.10.5/57ac67a6cf6fd591e235c62f8893438e8d10431d/scala-library-2.10.5.jar -> scala.App
+internal apis:
+1 items
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAOinw6AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAK3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cAHvuV50AAZub3RpZnlzcQB+AAya+jT7dAAEbmFtZXNxAH4ADFpW1UJ0AAR3YWl0c3EAfgAMEA5443QADSRhc0luc3RhbmNlT2ZzcQB+AAxRZ/iEdAAIc3VwZXJNYW5zcQB+AAzWkgPRdAAHcmVjb3JkMnNxAH4ADJzBv610AAhQcm9kdWNlcnNxAH4ADE+yezB0AAZlcXVhbHNzcQB+AAw/q66cdAADaWQyc3EAfgAMDXIgU3QADGFzSW5zdGFuY2VPZnNxAH4ADA01ieV0AA5leGVjdXRpb25TdGFydHNxAH4ADPwLfQV0AAZhbnRNYW5zcQB+AAyADZjSdAAMc3luY2hyb25pemVkc3EAfgAMV1029HQADSRpc0luc3RhbmNlT2ZzcQB+AAyWfmvudAAHcmVjb3JkMXNxAH4ADP0VUVp0AAlTdXBlckhlcm9zcQB+AAziJBcfdAAFX2FyZ3NzcQB+AAxEzxomdAADaWQxc3EAfgAMnUHsIHQABG1haW5zcQB+AAwLIJVxdAAIaW5pdENvZGVzcQB+AAzcqgLudAAJbm90aWZ5QWxsc3EAfgAMuNi3dnQAA251bXNxAH4ADAq9Dj90AAxpc0luc3RhbmNlT2ZzcQB+AAzCeE3KdAAGPGluaXQ+c3EAfgAM+/25RnQABnNjaGVtYXNxAH4ADG/Wju90AAI9PXNxAH4ADMfW1Gx0AAd0b0J5dGVzc3EAfgAMyGp4jHQAC3N1cGVyUG93ZXJzc3EAfgAMFZk01XQABWNsb25lc3EAfgAMaVpr23QACHRvU3RyaW5nc3EAfgAMW4NXQnQABGFyZ3NzcQB+AAzfb+iudAACIT1zcQB+AAxgVQoXdAAFdG9waWNzcQB+AAwlkI+8dAAIZ2V0Q2xhc3NzcQB+AAzgdT2FdAAFcHJvcHNzcQB+AAyc0aItdAACbmVzcQB+AAy7/4dxdAACZXFzcQB+AAxvvJg6dAALZGVsYXllZEluaXRzcQB+AAyL2P3zdAACIyNzcQB+AAyxWiNZdAAIZmluYWxpemVzcQB+AAy6p66AdAAOc2NoZW1hUmVnaXN0cnlzcQB+AAy+ARnpdAAIcHJvZHVjZXJzcQB+AAxnUtQPdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAACc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBteHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAcQB+AC11cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AIV4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AIQAcHNxAH4AiXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBtTAAJaW5oZXJpdGVkcQB+AG1MAAdwYXJlbnRzcQB+AG14cQB+AI1zcQB+AIQAcHNxAH4AiXVxAH4AaAAAAABzcQB+AIQAcHNxAH4AiXVxAH4AaAAAAABzcQB+AIQAcHNxAH4AiXVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AjHQABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AjHNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4AqXQABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AqnNxAH4AnXQAA0FueXNxAH4AoXNxAH4ApHVxAH4ApwAAAAJzcQB+AKl0AAVzY2FsYXEAfgCwc3EAfgBqcQB+AHd1cQB+AHgAAAAAc3EAfgB6AHEAfgAbdXEAfgB8AAAAAH5xAH4AfnQABk1vZHVsZXVxAH4AggAAAABzcQB+AIQAcHNxAH4AiXEAfgCOc3EAfgCEAHBzcQB+AIlzcQB+AJFzcQB+AIQAcHNxAH4AiXVxAH4AaAAAAABzcQB+AIQAcHNxAH4AiXVxAH4AaAAAAAFzcgANeHNidGkuYXBpLkRlZlK+n+J8tDZpAgACTAAKcmV0dXJuVHlwZXQAEEx4c2J0aS9hcGkvVHlwZTtbAA92YWx1ZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9QYXJhbWV0ZXJMaXN0O3hxAH4AbnEAfgB3dXEAfgB4AAAAAHNxAH4AegBxAH4AM3VxAH4AfAAAAABzcQB+AJ10AARVbml0c3EAfgChc3EAfgCkdXEAfgCnAAAAAnNxAH4AqXEAfgC3cQB+ALB1cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4ADUwAA3RwZXEAfgDLeHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgB/dAAFUGxhaW5xAH4AS3NyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4AnlsADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4AjHNxAH4AnXQABUFycmF5cQB+ANN1cQB+AJsAAAABc3EAfgCddAAGU3RyaW5nc3EAfgChc3EAfgCkdXEAfgCnAAAAA3NxAH4AqXEAfgCsc3EAfgCpcQB+AK5xAH4AsHNxAH4AhABwc3EAfgCJdXEAfgCbAAAABHNxAH4AnXQAA0FwcHEAfgDTc3EAfgCddAALRGVsYXllZEluaXRxAH4A03NxAH4AnXEAfgCgcQB+AOxzcQB+AJ1xAH4AsnEAfgDTdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAABzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVio3hZGdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAUy9Vc2Vycy9yb2FkYW4vV29yay9TZXNzaW9ucy9rYWZrYS13b3Jrc2hvcC9EZW1vcy9zY2hlbWEtcmVnaXN0cnkvYnVpbGQvY2xhc3Nlcy9tYWludAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUU+gsgpWaQ77w7XjlRo9logWbTpk=
+external apis:
+0 items
+source infos:
+1 items
+/Users/roadan/Work/Sessions/kafka-workshop/Demos/schema-registry/src/main/scala/Producer.scala -> 
+AAAAAAAAAAA=
+compilations:
+13 items
+00 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWKPT36R1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUy9Vc2Vycy9yb2FkYW4vV29yay9TZXNzaW9ucy9rYWZrYS13b3Jrc2hvcC9EZW1vcy9zY2hlbWEtcmVnaXN0cnkvYnVpbGQvY2xhc3Nlcy9tYWludAABLw==
+01 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWKPkOst1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUy9Vc2Vycy9yb2FkYW4vV29yay9TZXNzaW9ucy9rYWZrYS13b3Jrc2hvcC9EZW1vcy9zY2hlbWEtcmVnaXN0cnkvYnVpbGQvY2xhc3Nlcy9tYWludAABLw==
+02 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWKPoyNx1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUy9Vc2Vycy9yb2FkYW4vV29yay9TZXNzaW9ucy9rYWZrYS13b3Jrc2hvcC9EZW1vcy9zY2hlbWEtcmVnaXN0cnkvYnVpbGQvY2xhc3Nlcy9tYWludAABLw==
+03 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWKQ5CoR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUy9Vc2Vycy9yb2FkYW4vV29yay9TZXNzaW9ucy9rYWZrYS13b3Jrc2hvcC9EZW1vcy9zY2hlbWEtcmVnaXN0cnkvYnVpbGQvY2xhc3Nlcy9tYWludAABLw==
+04 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWKRJ8xt1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUy9Vc2Vycy9yb2FkYW4vV29yay9TZXNzaW9ucy9rYWZrYS13b3Jrc2hvcC9EZW1vcy9zY2hlbWEtcmVnaXN0cnkvYnVpbGQvY2xhc3Nlcy9tYWludAABLw==
+05 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWKRXT791cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUy9Vc2Vycy9yb2FkYW4vV29yay9TZXNzaW9ucy9rYWZrYS13b3Jrc2hvcC9EZW1vcy9zY2hlbWEtcmVnaXN0cnkvYnVpbGQvY2xhc3Nlcy9tYWludAABLw==
+06 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWKRdCu91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUy9Vc2Vycy9yb2FkYW4vV29yay9TZXNzaW9ucy9rYWZrYS13b3Jrc2hvcC9EZW1vcy9zY2hlbWEtcmVnaXN0cnkvYnVpbGQvY2xhc3Nlcy9tYWludAABLw==
+07 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWKhLEIR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUy9Vc2Vycy9yb2FkYW4vV29yay9TZXNzaW9ucy9rYWZrYS13b3Jrc2hvcC9EZW1vcy9zY2hlbWEtcmVnaXN0cnkvYnVpbGQvY2xhc3Nlcy9tYWludAABLw==
+08 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWKhMSIV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUy9Vc2Vycy9yb2FkYW4vV29yay9TZXNzaW9ucy9rYWZrYS13b3Jrc2hvcC9EZW1vcy9zY2hlbWEtcmVnaXN0cnkvYnVpbGQvY2xhc3Nlcy9tYWludAABLw==
+09 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWKizpgF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUy9Vc2Vycy9yb2FkYW4vV29yay9TZXNzaW9ucy9rYWZrYS13b3Jrc2hvcC9EZW1vcy9zY2hlbWEtcmVnaXN0cnkvYnVpbGQvY2xhc3Nlcy9tYWludAABLw==
+10 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWKjFu2l1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUy9Vc2Vycy9yb2FkYW4vV29yay9TZXNzaW9ucy9rYWZrYS13b3Jrc2hvcC9EZW1vcy9zY2hlbWEtcmVnaXN0cnkvYnVpbGQvY2xhc3Nlcy9tYWludAABLw==
+11 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWKjciBh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUy9Vc2Vycy9yb2FkYW4vV29yay9TZXNzaW9ucy9rYWZrYS13b3Jrc2hvcC9EZW1vcy9zY2hlbWEtcmVnaXN0cnkvYnVpbGQvY2xhc3Nlcy9tYWludAABLw==
+12 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWKjeFkZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUy9Vc2Vycy9yb2FkYW4vV29yay9TZXNzaW9ucy9rYWZrYS13b3Jrc2hvcC9EZW1vcy9zY2hlbWEtcmVnaXN0cnkvYnVpbGQvY2xhc3Nlcy9tYWludAABLw==

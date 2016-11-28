@@ -36,23 +36,8 @@ EOF
 
 sudo yum clean all
 sudo yum -y install confluent-platform-oss-2.11
+sudo yum -y install confluent-control-center
 
-#cat >> /etc/systemd/system/kafka.service << EOF
-#[Unit]
-#Description=Apache Kafka server (broker)
-#Documentation=http://kafka.apache.org/documentation.html
-#Requires=network.target remote-fs.target 
-#After=network.target remote-fs.target zookeeper.service
 
-#[Service]
-#Type=simple
-#User=kafka
-#Group=kafka
-#Environment=JAVA_HOME=/usr/bin/java
-#ExecStart=/usr/bin/kafka-server-start /etc/kafka/server.properties
-#ExecStop=/usr/bin/kafka-server-stop.sh
-#EOF
-
-#sudo service kafka start
 echo "finished provision.sh"
 echo "---------------------"

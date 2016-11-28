@@ -1,0 +1,18 @@
+products:
+   schema-registry/src/main/scala/Producer.scala -> schema-registry/build/classes/main/Producer$.class
+   schema-registry/src/main/scala/Producer.scala -> schema-registry/build/classes/main/Producer$delayedInit$body.class
+   schema-registry/src/main/scala/Producer.scala -> schema-registry/build/classes/main/Producer.class
+   schema-registry/src/main/scala/Producer.scala -> schema-registry/build/classes/main/SuperHero.class
+binary dependencies:
+   schema-registry/src/main/scala/Producer.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/rt.jar
+   schema-registry/src/main/scala/Producer.scala -> /Users/roadan/.gradle/caches/modules-2/files-2.1/io.confluent/kafka-schema-registry-client/3.0.1/958abb2ae3de62348e332a35ca3e8e0d8e31bb9/kafka-schema-registry-client-3.0.1.jar
+   schema-registry/src/main/scala/Producer.scala -> /Users/roadan/.gradle/caches/modules-2/files-2.1/org.apache.avro/avro/1.7.7/3548c0bc136e71006f3fc34e22d34a29e5069e50/avro-1.7.7.jar
+   schema-registry/src/main/scala/Producer.scala -> /Users/roadan/.gradle/caches/modules-2/files-2.1/org.apache.kafka/kafka-clients/0.10.0.1-cp1/18068c68b560a4646bba1656b0e24e9c6de0139c/kafka-clients-0.10.0.1-cp1.jar
+   schema-registry/src/main/scala/Producer.scala -> /Users/roadan/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.10.5/57ac67a6cf6fd591e235c62f8893438e8d10431d/scala-library-2.10.5.jar
+source dependencies:
+external dependencies:
+class names:
+   schema-registry/src/main/scala/Producer.scala -> Producer
+   schema-registry/src/main/scala/Producer.scala -> Producer$
+   schema-registry/src/main/scala/Producer.scala -> Producer$delayedInit$body
+   schema-registry/src/main/scala/Producer.scala -> SuperHero
