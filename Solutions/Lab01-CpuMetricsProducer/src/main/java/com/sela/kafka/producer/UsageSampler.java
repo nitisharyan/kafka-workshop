@@ -1,4 +1,4 @@
-package com.sela.kafka;
+package com.sela.kafka.producer;
 
 import com.sun.management.OperatingSystemMXBean;
 import java.lang.management.ManagementFactory;

@@ -1,6 +1,8 @@
-package com.sela.kafka;
+package com.sela.kafka.producer;
 
 import com.google.gson.Gson;
+import com.sela.kafka.common.CpuMetricMessage;
+import org.apache.kafka.clients.KafkaClient;
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerRecord;
 

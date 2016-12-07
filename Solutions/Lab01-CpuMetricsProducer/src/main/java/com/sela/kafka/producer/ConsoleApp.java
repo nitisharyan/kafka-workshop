@@ -1,7 +1,8 @@
-package com.sela.kafka;
+package com.sela.kafka.producer;
 
 import com.google.common.io.Resources;
 import com.google.gson.Gson;
+import com.sela.kafka.common.CpuMetricMessage;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -44,7 +45,7 @@ public class ConsoleApp {
                 }
 
             }
-        }, 0, 5000);
+        }, 0, 500);
 
     }
 }

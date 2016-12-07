@@ -1,4 +1,6 @@
-package com.sela.kafka;
+package com.sela.kafka.common;
+
+import com.sela.kafka.producer.UsageSampler;
 
 /**
  * Created by eyalbenivri on 21/11/2016.
