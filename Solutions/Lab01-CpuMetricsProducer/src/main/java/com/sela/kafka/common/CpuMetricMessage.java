@@ -7,11 +7,11 @@ import com.sela.kafka.producer.UsageSampler;
  */
 public class CpuMetricMessage {
 
-    public CpuMetricMessage(UsageSampler sampler, String macAddress) {
+    public CpuMetricMessage(UsageSampler sampler) {
         this.cpuUsage = sampler.getCpuUsage();
         this.freeMemory = sampler.getFreeMemory();
         this.nanoTime = System.nanoTime();
-        this.macAddress = macAddress;
+        this.macAddress = sampler.getMacAddress();
     }
 
     public double getCpuUsage() {

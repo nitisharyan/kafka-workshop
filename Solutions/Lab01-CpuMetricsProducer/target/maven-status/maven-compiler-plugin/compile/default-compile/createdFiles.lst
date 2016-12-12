@@ -1,8 +1,8 @@
 com/sela/kafka/producer/ConsoleApp$1.class
 com/sela/kafka/common/CpuMetricMessage.class
 com/sela/kafka/consumer/ConsoleApp$1.class
-com/sela/kafka/producer/KafkaSender.class
 com/sela/kafka/consumer/ConsoleApp.class
-com/sela/kafka/consumer/CpuCounter.class
 com/sela/kafka/producer/ConsoleApp.class
+com/sela/kafka/consumer/CpuCounter.class
+com/sela/kafka/producer/KafkaSender.class
 com/sela/kafka/producer/UsageSampler.class
