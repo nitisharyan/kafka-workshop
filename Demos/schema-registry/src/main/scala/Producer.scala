@@ -12,7 +12,7 @@ import org.apache.avro.reflect.{ReflectData, ReflectDatumWriter}
 class SuperHero(nameParam: String, superPowersParam: String) {
   val name: String = nameParam
   //val superPowers: String = superPowersParam
-  // val num = 11
+  val num = 11
 }
 
 object Producer extends App {
@@ -39,8 +39,8 @@ object Producer extends App {
   val schema = ReflectData.get().getSchema(superMan.getClass)
 
   // we need to add default value to change the schema
-  //  schema.addProp("num", 11)
-  //  println(schema)
+//  schema.addProp("num", 11)
+//  println(schema)
 
   val id1 = schemaRegistry.register("DCSchema", schema)
   val id2 = schemaRegistry.register("MarvelSchema", schema)

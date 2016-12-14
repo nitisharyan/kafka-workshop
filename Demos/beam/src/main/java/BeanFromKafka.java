@@ -67,7 +67,7 @@ public class BeanFromKafka {
 
         @DoFn.ProcessElement
         public void processElement(ProcessContext c) {
-            
+
             String row = c.element().getKey() + " - " + c.element().getValue() + " @ "
                     + c.timestamp().toString();
             System.out.println(row);
