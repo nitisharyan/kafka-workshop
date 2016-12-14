@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 echo "Setting up the hosts file"
-echo "192.168.33.17 kafka-node" >> /etc/hosts
+echo "192.168.33.77 kafka-node" >> /etc/hosts
 
 echo "installing zookeeper"
 echo "--------------------"
@@ -38,6 +38,40 @@ sudo yum clean all
 sudo yum -y install confluent-platform-oss-2.11
 sudo yum -y install confluent-control-center
 
+nohup /usr/bin/kafka-server-start /etc/kafka/server.properties &
+nohup /bin/schema-registry-start /etc/schema-registry/schema-registry.properties &
+
+cat >> /etc/kafka/connect-standalone.properties << EOF
+key.converter.schema.registry.url=http://localhost:8081
+value.converter.schema.registry.url=http://localhost:8081
+offset.storage.file.filename=/tmp/connect.offsets
+EOF
+
+nohup /usr/bin/connect-standalone /etc/kafka/connect-standalone.properties /etc/kafka/connect-file-source.properties &
+
+cat >> /etc/confluent-control-center/control-center.properties << EOF
+confluent.controlcenter.internal.topics.partitions=1
+confluent.controlcenter.internal.topics.replication=1
+confluent.controlcenter.command.topic.replication=1
+confluent.monitoring.interceptor.topic.partitions=1
+confluent.monitoring.interceptor.topic.replication=1
+EOF
+
+nohup /usr/bin/control-center-start /etc/confluent-control-center/control-center.properties &
+
+echo "insralling MariaDB"
+echo "------------------"
+
+cat >> /etc/yum.repos.d/MariaDB.repo << EOF
+[mariadb]
+name = MariaDB
+baseurl = http://yum.mariadb.org/10.1/centos7-amd64
+gpgkey=https://yum.mariadb.org/RPM-GPG-KEY-MariaDB
+gpgcheck=1
+EOF
+
+yum -y install MariaDB-server MariaDB-client
+sudo systemctl start mariadb
 
 echo "finished provision.sh"
 echo "---------------------"

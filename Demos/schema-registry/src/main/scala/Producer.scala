@@ -1,15 +1,18 @@
 import java.io.ByteArrayOutputStream
 import java.util.Properties
 
+import com.fasterxml.jackson.databind.node.IntNode
 import io.confluent.kafka.schemaregistry.client.CachedSchemaRegistryClient
 import org.apache.avro.Schema
+import org.apache.avro.Schema.Field
 import org.apache.avro.io.EncoderFactory
 import org.apache.kafka.clients.producer.{KafkaProducer, ProducerRecord}
 import org.apache.avro.reflect.{ReflectData, ReflectDatumWriter}
 
 class SuperHero(nameParam: String, superPowersParam: String) {
   val name: String = nameParam
-  val superPowers: String = superPowersParam
+  //val superPowers: String = superPowersParam
+  // val num = 11
 }
 
 object Producer extends App {
@@ -34,9 +37,14 @@ object Producer extends App {
   val antMan = new SuperHero("antman", "getting small, sarcasm")
 
   val schema = ReflectData.get().getSchema(superMan.getClass)
+
+  // we need to add default value to change the schema
+  //  schema.addProp("num", 11)
+  //  println(schema)
+
   val id1 = schemaRegistry.register("DCSchema", schema)
   val id2 = schemaRegistry.register("MarvelSchema", schema)
-
+  //println(id1)
 
   val record1 = new ProducerRecord[String, Array[Byte]](topic, "DCSchema", toBytes(superMan, schema))
   producer.send(record1)

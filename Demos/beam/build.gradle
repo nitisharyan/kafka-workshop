@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+    id 'com.github.johnrengelman.shadow' version '1.2.4'
+}
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile group: 'org.apache.beam', name: 'beam-sdks-java-core', version: '0.3.0-incubating'
+    compile group: 'org.apache.beam', name: 'beam-runners-flink_2.10', version: '0.3.0-incubating'
+    compile group: 'org.apache.flink', name: 'flink-connector-kafka-0.8_2.10', version: '1.0.0'
+}

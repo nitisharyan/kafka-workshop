@@ -1,1 +1,4 @@
 include 'schema-registry'
+include 'kafka-streams'
+include 'beam'
+
