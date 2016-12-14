@@ -1,6 +1,0 @@
-/Users/eyalbenivri/Developer/projects/kafka-workshop/Solutions/Lab01-CpuMetricsProducer/src/main/java/com/sela/kafka/producer/ConsoleApp.java
-/Users/eyalbenivri/Developer/projects/kafka-workshop/Solutions/Lab01-CpuMetricsProducer/src/main/java/com/sela/kafka/consumer/ConsoleApp.java
-/Users/eyalbenivri/Developer/projects/kafka-workshop/Solutions/Lab01-CpuMetricsProducer/src/main/java/com/sela/kafka/producer/KafkaSender.java
-/Users/eyalbenivri/Developer/projects/kafka-workshop/Solutions/Lab01-CpuMetricsProducer/src/main/java/com/sela/kafka/producer/UsageSampler.java
-/Users/eyalbenivri/Developer/projects/kafka-workshop/Solutions/Lab01-CpuMetricsProducer/src/main/java/com/sela/kafka/common/CpuMetricMessage.java
-/Users/eyalbenivri/Developer/projects/kafka-workshop/Solutions/Lab01-CpuMetricsProducer/src/main/java/com/sela/kafka/consumer/CpuCounter.java
