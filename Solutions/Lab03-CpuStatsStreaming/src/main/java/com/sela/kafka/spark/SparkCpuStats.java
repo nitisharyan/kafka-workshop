@@ -1,7 +1,6 @@
 package com.sela.kafka.spark;
 
 import com.sela.kafka.common.CpuMetricMessage;
-
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.common.serialization.StringDeserializer;
 import org.apache.spark.SparkConf;
@@ -27,7 +26,13 @@ public class SparkCpuStats {
     public static void main(String[] args) throws InterruptedException {
         Map<String, Object> kafkaParams = new HashMap<>();
         kafkaParams.put("bootstrap.servers", "localhost:9092");
-        // you probably need to set more properties here...
+        kafkaParams.put("key.deserializer", StringDeserializer.class);
+        kafkaParams.put("value.deserializer", StringDeserializer.class);
+        kafkaParams.put("group.id", "spark_cpustats_java");
+        kafkaParams.put("auto.offset.reset", "latest");
+        kafkaParams.put("enable.auto.commit", false);
+
+        Collection<String> topics = Arrays.asList("cpuMetrics");
 
         SparkConf conf = new SparkConf(true).setMaster("local");
         conf.setAppName("spark_cpustats_java");
@@ -35,15 +40,18 @@ public class SparkCpuStats {
         jsc.setLogLevel("WARN");
         JavaStreamingContext streamingContext = new JavaStreamingContext(jsc, Seconds.apply(10));
 
-        // define topics to pass into the KafkaUtils method
         final JavaInputDStream<ConsumerRecord<String, String>> stream = KafkaUtils
                 .createDirectStream(streamingContext, LocationStrategies.PreferConsistent(), ConsumerStrategies.<String, String>Subscribe(topics, kafkaParams));
+        JavaPairDStream<String, CpuMetricMessage> logs = stream
+                .map(cr -> CpuMetricMessage.createInstance(cr.value()))
+                .mapToPair(cpuMsg -> new Tuple2<>(cpuMsg.getMacAddress(), cpuMsg));
+        JavaPairDStream<String, Tuple2<Double, Integer>> cpuLogStream = logs.mapValues(cpu -> new Tuple2<>(cpu.getCpuUsage(), 1))
+                .reduceByKeyAndWindow((cpu1, cpu2) -> new Tuple2(cpu1._1 + cpu2._1, cpu1._2 + cpu2._2), Seconds.apply(30));
+        cpuLogStream.mapValues(cpu -> cpu._1 / cpu._2).print();
 
-
-        // implelment code to parse data from kafka,
-        // map from each message the string represnetation, parse to object using CpuMetricMessage
-        // calculate every 30 seconds window a avrage of cpuUsage and freeMemory, per mac address
-
+        JavaPairDStream<String, Tuple2<Long, Integer>> memLogStream = logs.mapValues(cpu -> new Tuple2<>(cpu.getFreeMemory()/(1024^2), 1))
+                .reduceByKeyAndWindow((cpu1, cpu2) -> new Tuple2(cpu1._1 + cpu2._1, cpu1._2 + cpu2._2), Seconds.apply(30));
+        memLogStream.mapValues(stats -> (double)stats._1 / stats._2).print();
 
         streamingContext.start();
         streamingContext.awaitTermination();

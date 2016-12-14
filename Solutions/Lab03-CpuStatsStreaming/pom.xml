@@ -74,21 +74,21 @@
         </dependency>
 
 
-        <!--<dependency>-->
-            <!--<groupId>org.apache.flink</groupId>-->
-            <!--<artifactId>flink-streaming-java_2.11</artifactId>-->
-            <!--<version>LATEST</version>-->
-        <!--</dependency>-->
-        <!--<dependency>-->
-            <!--<groupId>org.apache.flink</groupId>-->
-            <!--<artifactId>flink-java</artifactId>-->
-            <!--<version>LATEST</version>-->
-        <!--</dependency>-->
-        <!--<dependency>-->
-            <!--<groupId>org.apache.flink</groupId>-->
-            <!--<artifactId>flink-clients_2.11</artifactId>-->
-            <!--<version>LATEST</version>-->
-        <!--</dependency>-->
+        <dependency>
+            <groupId>org.apache.flink</groupId>
+            <artifactId>flink-streaming-java_2.11</artifactId>
+            <version>LATEST</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.flink</groupId>
+            <artifactId>flink-java</artifactId>
+            <version>LATEST</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.flink</groupId>
+            <artifactId>flink-clients_2.11</artifactId>
+            <version>LATEST</version>
+        </dependency>
         <!--<dependency>-->
             <!--<groupId>org.apache.flink</groupId>-->
             <!--<artifactId>flink-connector-kafka-0.10_2.11</artifactId>-->
