@@ -3,6 +3,7 @@ import org.apache.kafka.common.serialization.Serdes;
 import org.apache.kafka.streams.KafkaStreams;
 import org.apache.kafka.streams.KeyValue;
 import org.apache.kafka.streams.StreamsConfig;
+import org.apache.kafka.streams.kstream.ForeachAction;
 import org.apache.kafka.streams.kstream.KStream;
 import org.apache.kafka.streams.kstream.KStreamBuilder;
 
@@ -14,7 +15,7 @@ import java.util.Properties;
  */
 public class SimpleStream {
 
-    static void main(){
+    static void main() {
 
         final Serde<String> stringSerde = Serdes.String();
         final Serde<Long> longSerde = Serdes.Long();
@@ -27,6 +28,13 @@ public class SimpleStream {
                 .map((key, value) -> new KeyValue<>(value, value))
                 .countByKey(stringSerde, "Counts")
                 .toStream();
+
+        wordCounts.foreach(new ForeachAction<String, Long>() {
+            @Override
+            public void apply(String key, Long value) {
+                System.out.println(key + " " + value.toString());
+            }
+        });
 
         wordCounts.to(stringSerde, longSerde, "streams-wordcount-output");
 
